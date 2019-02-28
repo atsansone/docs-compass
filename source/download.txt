@@ -102,8 +102,16 @@ To download |compass-short|, you can use your preferred web browser.
 
          1. Open the {+download-page+}.
 
-         #. Download the latest version of |compass| for
-            macOS. The |compass| installer is a ``.dmg`` disk
+         #. For :guilabel:`Version`, select your preferred 
+            :ref:`edition <compass-and-community-eds>` of
+            |compass| |compass-stable|. 
+
+         #. For :guilabel:`Platform`, select 
+            :guilabel:`OS X 64-bit (10.10+)`.
+
+
+         #. Click :guilabel:`Download` to start downloading your
+            selected edition of Compass. The |compass| installer is a ``.dmg`` disk
             image.
 
      - id: windows
@@ -112,11 +120,25 @@ To download |compass-short|, you can use your preferred web browser.
 
          1. Open the {+download-page+}.
 
-         #. Select the installer you prefer:
+         #. For :guilabel:`Version`, select your preferred 
+            :ref:`edition <compass-and-community-eds>` of
+            |compass| |compass-stable|. 
 
-         #. Download the latest version of |compass| for
-            Windows. The |compass| installer is available as a ``.exe``
-            or ``.msi`` package or a ``.zip`` archive.
+         #. For :guilabel:`Platform`, select your preferred installation
+            method for the Windows platform:
+
+            - Select :guilabel:`Windows 64-bit (7+)` to download
+              |compass| as an ``.exe``
+
+            - Select :guilabel:`Windows 64-bit (7+) (MSI) to download 
+              |compass| as an MSI package.
+
+            - Select :guilabel:`Windows 64-bit (7+) (Zip) to download
+              |compass| as a ``zip`` archive.
+
+
+         #. Click :guilabel:`Download` to start downloading your
+            selected edition of |compass|. 
 
      - id: ubuntu
        name: Ubuntu
@@ -124,9 +146,17 @@ To download |compass-short|, you can use your preferred web browser.
 
          1. Open the {+download-page+}.
 
-         #. Download the latest version of |compass| for
-            Ubuntu. The |compass| installer is a ``.deb``
-            package.
+         #. For :guilabel:`Version`, select your preferred 
+            :ref:`edition <compass-and-community-eds>` of
+            |compass| |compass-stable|. 
+
+         #. For :guilabel:`Platform`, select 
+            :guilabel:`Ubuntu 64-bit (14.04+)`.
+
+
+         #. Click :guilabel:`Download` to start downloading your
+            selected edition of |compass|.  The |compass| installer is a 
+            ``.deb`` package.
 
      - id: rhel
        name: RHEL
@@ -134,5 +164,17 @@ To download |compass-short|, you can use your preferred web browser.
 
          1. Open the {+download-page+}.
 
-         #. Download the latest version of |compass| for Ubuntu. The
+         #. For :guilabel:`Version`, select your preferred 
+            :ref:`edition <compass-and-community-eds>` of
+            |compass| |compass-stable|. 
+
+         #. For :guilabel:`Platform`, select 
+            :guilabel:`RedHat 64-bit (7+)`.
+
+
+         #. Click :guilabel:`Download` to start downloading your
+            selected edition of |compass|.  The
             |compass| installer is a ``.rpm`` package.
+
+Once you have downloaded the latest version of |compass| for your
+operating system, continue to :doc:`/install`.

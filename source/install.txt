@@ -21,12 +21,13 @@ Install Compass
             .. figure:: /images/compass/osx-install-dialog.png
                :figwidth: 600px
 
-         #. Eject the disk image.
+         #. Once the installation completes, you can eject the disk 
+            image.
 
          #. From the :guilabel:`Applications` folder, double-click on
             the |compass-short| icon to start the application.
 
-         #. After you start the application, you see the following
+         #. After you start the application, you may see the following
             dialog:
 
             .. figure:: /images/compass/application-downloaded-internet.png
@@ -86,7 +87,10 @@ Install Compass
 
             .. code-block:: sh
 
-               sudo yum install mongodb-compass-{+current-version+}.x86_64.rpm
+               sudo yum install /path/to/mongodb-compass-{+current-version+}.x86_64.rpm
+
+            Replace ``/path/to/`` with the full path to the location
+            of the |compass| ``rpm`` you downloaded.
 
          #. Start Compass:
 
